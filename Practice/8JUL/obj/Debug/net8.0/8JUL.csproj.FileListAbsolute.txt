@@ -1,0 +1,4 @@
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.AssemblyInfoInputs.cache
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.AssemblyInfo.cs
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.csproj.CoreCompileInputs.cache
