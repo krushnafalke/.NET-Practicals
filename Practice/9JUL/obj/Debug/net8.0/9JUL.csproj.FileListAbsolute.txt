@@ -1,0 +1,15 @@
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/bin/Debug/net8.0/9JUL
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/bin/Debug/net8.0/9JUL.deps.json
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/bin/Debug/net8.0/9JUL.runtimeconfig.json
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/bin/Debug/net8.0/9JUL.dll
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/bin/Debug/net8.0/9JUL.pdb
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.AssemblyInfoInputs.cache
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.AssemblyInfo.cs
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.csproj.CoreCompileInputs.cache
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.sourcelink.json
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.dll
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/refint/9JUL.dll
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.pdb
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/9JUL.genruntimeconfig.cache
+/Users/krushnafalke/Desktop/Practical/Practice/9JUL/obj/Debug/net8.0/ref/9JUL.dll

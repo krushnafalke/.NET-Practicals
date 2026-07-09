@@ -2,3 +2,14 @@
 /Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.AssemblyInfoInputs.cache
 /Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.AssemblyInfo.cs
 /Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.csproj.CoreCompileInputs.cache
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.sourcelink.json
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/bin/Debug/net8.0/8JUL
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/bin/Debug/net8.0/8JUL.deps.json
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/bin/Debug/net8.0/8JUL.runtimeconfig.json
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/bin/Debug/net8.0/8JUL.dll
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/bin/Debug/net8.0/8JUL.pdb
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.dll
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/refint/8JUL.dll
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.pdb
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/8JUL.genruntimeconfig.cache
+/Users/krushnafalke/Desktop/Practical/Practice/8JUL/obj/Debug/net8.0/ref/8JUL.dll
