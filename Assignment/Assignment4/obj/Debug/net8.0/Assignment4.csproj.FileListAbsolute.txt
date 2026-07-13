@@ -1,0 +1,15 @@
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/bin/Debug/net8.0/Assignment4
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/bin/Debug/net8.0/Assignment4.deps.json
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/bin/Debug/net8.0/Assignment4.runtimeconfig.json
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/bin/Debug/net8.0/Assignment4.dll
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/bin/Debug/net8.0/Assignment4.pdb
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.AssemblyInfoInputs.cache
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.AssemblyInfo.cs
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.csproj.CoreCompileInputs.cache
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.sourcelink.json
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.dll
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/refint/Assignment4.dll
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.pdb
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/Assignment4.genruntimeconfig.cache
+/Users/krushnafalke/Desktop/Practical/Assignment/Assignment4/obj/Debug/net8.0/ref/Assignment4.dll
