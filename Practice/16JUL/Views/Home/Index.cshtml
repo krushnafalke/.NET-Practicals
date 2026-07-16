@@ -1,0 +1,33 @@
+﻿@model List<_16JUL.Models.Student>
+    
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to students Portal</h1>
+    
+</div>
+<div>
+    <table class = "student-table">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Course</th>
+            <th>Qualification</th>
+            <th>Marks</th>
+        </tr>
+        @foreach(var item in Model){
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Age</td>
+                <td>@item.Course</td>
+                <td>@item.Qualification</td>
+                <td>@item.Marks</td>
+            </tr>
+        }
+
+    </table>
+</div>
