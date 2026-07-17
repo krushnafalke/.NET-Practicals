@@ -1,0 +1,24 @@
+@model List<Assignment8.Models.Department>
+
+
+<h2  >Department Details</h2>
+
+<table class = "department-table">
+    <tr>
+        <th>Department Name</th>
+        <th>Department Head</th>
+        <th>Head Contact</th>
+        <th>Head Email</th>
+    </tr>
+
+    @foreach(var dept in Model)
+    {
+        <tr>
+            <td>@dept.Department_Name</td>
+            <td>@dept.Department_Head</td>
+            <td>@dept.Head_Contact</td>
+            <td>@dept.Head_Email</td>
+        </tr>
+    }
+
+</table>
