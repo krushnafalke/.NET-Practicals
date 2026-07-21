@@ -1,0 +1,59 @@
+@model List<ShopEase.Models.Category>
+
+<h2>Categories</h2>
+
+<p>
+
+<a asp-action="Create"
+class="btn btn-success">
+
+Add Category
+
+</a>
+
+</p>
+
+<table class="table table-bordered table-striped">
+
+<tr>
+
+<th>ID</th>
+
+<th>Category Name</th>
+
+<th>Action</th>
+
+</tr>
+
+@foreach(var c in Model)
+{
+<tr>
+
+<td>@c.CategoryId</td>
+
+<td>@c.CategoryName</td>
+
+<td>
+
+<a asp-action="Edit"
+asp-route-id="@c.CategoryId"
+class="btn btn-warning">
+
+Edit
+
+</a>
+
+<a asp-action="Delete"
+asp-route-id="@c.CategoryId"
+class="btn btn-danger">
+
+Delete
+
+</a>
+
+</td>
+
+</tr>
+}
+
+</table>

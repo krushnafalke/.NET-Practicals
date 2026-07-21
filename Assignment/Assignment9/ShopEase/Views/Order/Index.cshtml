@@ -1,0 +1,69 @@
+@model List<ShopEase.Models.Order>
+
+<h2>Orders</h2>
+
+<p>
+
+<a asp-action="PlaceOrder"
+class="btn btn-success">
+
+Place Order
+
+</a>
+
+</p>
+
+<table class="table table-bordered">
+
+<tr>
+
+<th>Order ID</th>
+<th>Date</th>
+<th>Total</th>
+<th>Discount</th>
+<th>GST</th>
+<th>Grand Total</th>
+<th>Action</th>
+
+</tr>
+
+@foreach(var item in Model)
+{
+<tr>
+
+<td>@item.OrderId</td>
+
+<td>@item.OrderDate</td>
+
+<td>@item.Total</td>
+
+<td>@item.Discount</td>
+
+<td>@item.GST</td>
+
+<td>@item.GrandTotal</td>
+
+<td>
+
+<a asp-action="Invoice"
+asp-route-id="@item.OrderId"
+class="btn btn-primary">
+
+Invoice
+
+</a>
+
+<a asp-action="Delete"
+asp-route-id="@item.OrderId"
+class="btn btn-danger">
+
+Cancel
+
+</a>
+
+</td>
+
+</tr>
+}
+
+</table>

@@ -1,0 +1,28 @@
+@model ShopEase.Models.Category
+
+<h2>Edit Category</h2>
+
+<form method="post">
+
+<label>ID</label>
+
+<input asp-for="CategoryId"
+readonly
+class="form-control"/>
+
+<br>
+
+<label>Category Name</label>
+
+<input asp-for="CategoryName"
+class="form-control"/>
+
+<br>
+
+<button class="btn btn-success">
+
+Update
+
+</button>
+
+</form>

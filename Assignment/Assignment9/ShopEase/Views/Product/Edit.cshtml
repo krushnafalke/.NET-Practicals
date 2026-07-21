@@ -1,0 +1,62 @@
+@model ShopEase.Models.Product
+@using ShopEase.Controllers
+
+<h2>Edit Product</h2>
+
+<form method="post">
+
+<input asp-for="ProductId" readonly class="form-control"/>
+
+<br>
+
+<input asp-for="Name" class="form-control"/>
+
+<br>
+
+<select asp-for="Category"
+class="form-control">
+
+@foreach(var c in CategoryController.categories)
+{
+<option value="@c.CategoryName">
+
+@c.CategoryName
+
+</option>
+}
+
+</select>
+
+<br>
+
+<input asp-for="Description" class="form-control"/>
+
+<br>
+
+<input asp-for="Brand" class="form-control"/>
+
+<br>
+
+<input asp-for="Price" class="form-control"/>
+
+<br>
+
+<input asp-for="Quantity" class="form-control"/>
+
+<br>
+
+<input asp-for="Discount" class="form-control"/>
+
+<br>
+
+<input asp-for="Rating" class="form-control"/>
+
+<br>
+
+<button class="btn btn-success">
+
+Update
+
+</button>
+
+</form>

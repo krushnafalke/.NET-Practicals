@@ -1,0 +1,78 @@
+<h2>Admin Dashboard</h2>
+
+<hr />
+
+<div class="row">
+
+    <div class="col-md-4 mb-3">
+
+        <a class="btn btn-primary w-100"
+           asp-controller="Product"
+           asp-action="Create">
+
+            Add Product
+
+        </a>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <a class="btn btn-success w-100"
+           asp-controller="Product"
+           asp-action="Index">
+
+            View Products
+
+        </a>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <a class="btn btn-warning w-100"
+           asp-controller="Category"
+           asp-action="Create">
+
+            Add Category
+
+        </a>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <a class="btn btn-info w-100"
+           asp-controller="Category"
+           asp-action="Index">
+
+            View Categories
+
+        </a>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <a class="btn btn-secondary w-100"
+           asp-controller="Customer"
+           asp-action="Index">
+
+            Customers
+
+        </a>
+
+    </div>
+
+    <div class="col-md-4 mb-3">
+
+        <a class="btn btn-danger w-100"
+           asp-action="Logout">
+
+            Logout
+
+        </a>
+
+    </div>
+
+</div>

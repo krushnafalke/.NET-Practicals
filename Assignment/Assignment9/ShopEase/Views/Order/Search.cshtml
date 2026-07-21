@@ -1,0 +1,28 @@
+@model ShopEase.Models.Order
+
+<form method="post">
+
+<label>Enter Order ID</label>
+
+<input name="id" class="form-control"/>
+
+<br>
+
+<button class="btn btn-primary">
+
+Search
+
+</button>
+
+</form>
+
+@if(Model!=null)
+{
+<hr>
+
+<h4>Order Found</h4>
+
+<p>Order ID : @Model.OrderId</p>
+
+<p>Total : @Model.GrandTotal</p>
+}

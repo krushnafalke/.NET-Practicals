@@ -1,0 +1,44 @@
+<h2>Payment</h2>
+
+<form method="post">
+
+<select name="paymentMode"
+class="form-control">
+
+<option>UPI</option>
+
+<option>Credit Card</option>
+
+<option>Debit Card</option>
+
+<option>Cash On Delivery</option>
+
+</select>
+
+<br>
+
+<button class="btn btn-success">
+
+Pay
+
+</button>
+
+</form>
+
+@if(ViewBag.Status!=null)
+{
+<hr>
+
+<h4>@ViewBag.Status</h4>
+
+<p>Payment Mode : @ViewBag.Mode</p>
+
+<a asp-controller="Order"
+asp-action="Index"
+class="btn btn-primary">
+
+Go To Orders
+
+</a>
+
+}

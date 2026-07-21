@@ -1,0 +1,78 @@
+@model List<ShopEase.Models.Product>
+
+<h2>Products</h2>
+
+<p>
+
+<a asp-action="Create"
+class="btn btn-success">
+
+Add Product
+
+</a>
+
+</p>
+
+<table class="table table-bordered table-striped">
+
+<tr>
+
+<th>ID</th>
+<th>Name</th>
+<th>Category</th>
+<th>Brand</th>
+<th>Price</th>
+<th>Qty</th>
+<th>Discount</th>
+<th>Rating</th>
+<th>Action</th>
+
+</tr>
+
+@foreach(var p in Model)
+{
+<tr>
+
+<td>@p.ProductId</td>
+
+<td>@p.Name</td>
+
+<td>@p.Category</td>
+
+<td>@p.Brand</td>
+
+<td>@p.Price</td>
+
+<td>@p.Quantity</td>
+
+<td>@p.Discount %</td>
+
+<td>@p.Rating</td>
+
+<td>
+
+<a asp-action="Edit"
+asp-route-id="@p.ProductId"
+class="btn btn-warning btn-sm">
+Edit
+</a>
+
+<a asp-action="Delete"
+asp-route-id="@p.ProductId"
+class="btn btn-danger btn-sm">
+Delete
+</a>
+
+<a asp-controller="Cart"
+asp-action="Add"
+asp-route-id="@p.ProductId"
+class="btn btn-success btn-sm">
+Add To Cart
+</a>
+
+</td>
+
+</tr>
+}
+
+</table>
