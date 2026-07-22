@@ -1,0 +1,52 @@
+@model _22JUL.Models.Stationery
+
+<h2>Add Stationery</h2>
+
+<form asp-controller="Home" asp-action="Stationery" method="post">
+
+    <div>
+        <label asp-for="ItemName"></label>
+        <input asp-for="ItemName" class="form-control" />
+        <span asp-validation-for="ItemName" style="color:red"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Category"></label>
+        <input asp-for="Category" class="form-control" />
+        <span asp-validation-for="Category" style="color:red"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" style="color:red"></span>
+    </div>
+
+    <br />
+
+    <div>
+        <label asp-for="Stock"></label>
+        <input asp-for="Stock" class="form-control" />
+        <span asp-validation-for="Stock" style="color:red"></span>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">
+        Save Stationery
+    </button>
+
+</form>
+
+<div asp-validation-summary="All" style="color:red"></div>
+
+@section Scripts
+{
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
