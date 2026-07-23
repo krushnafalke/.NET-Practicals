@@ -1,0 +1,27 @@
+@model Assignment11.Models.Automobile
+
+<h2 class="text-success">
+    Automobile Registered Successfully
+</h2>
+
+<hr/>
+
+<table class="table table-bordered">
+
+    <tr>
+        <th>Vehicle Name</th>
+        <td>@Model.VehicleName</td>
+    </tr>
+
+    <tr>
+        <th>Brand</th>
+        <td>@Model.Brand</td>
+    </tr>
+
+</table>
+
+<a asp-controller="Manufacturer"
+   asp-action="Details"
+   class="btn btn-success">
+    View Manufacturer Details
+</a>

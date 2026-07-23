@@ -1,0 +1,50 @@
+@model Assignment11.Models.Automobile
+
+<h2>Automobile Registration</h2>
+
+<form asp-action="Register" method="post">
+
+    <div class="mb-3">
+        <label asp-for="VehicleId"></label>
+        <input asp-for="VehicleId" class="form-control"/>
+        <span asp-validation-for="VehicleId" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="VehicleName"></label>
+        <input asp-for="VehicleName" class="form-control"/>
+        <span asp-validation-for="VehicleName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Brand"></label>
+        <input asp-for="Brand" class="form-control"/>
+        <span asp-validation-for="Brand" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ModelYear"></label>
+        <input asp-for="ModelYear" class="form-control"/>
+        <span asp-validation-for="ModelYear" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control"/>
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="FuelType"></label>
+        <input asp-for="FuelType" class="form-control"/>
+        <span asp-validation-for="FuelType" class="text-danger"></span>
+    </div>
+
+    <button class="btn btn-primary">Register</button>
+
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}

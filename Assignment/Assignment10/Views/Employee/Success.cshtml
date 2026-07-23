@@ -1,0 +1,27 @@
+@model Assignment10.Models.Employee
+
+@{
+    ViewData["Title"] = "Success";
+}
+
+<h2 class="text-success">Employee Added Successfully</h2>
+
+<hr />
+
+<table class="table table-bordered">
+    <tr>
+        <th>Employee Name</th>
+        <td>@Model.Emp_Name</td>
+    </tr>
+
+    <tr>
+        <th>Department</th>
+        <td>@Model.Department</td>
+    </tr>
+</table>
+
+<br />
+
+<a asp-action="Department" class="btn btn-success">
+    View Department Details
+</a>

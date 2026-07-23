@@ -1,0 +1,65 @@
+@model Assignment10.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Registration";
+}
+
+<h2>Employee Registration</h2>
+
+<form asp-action="Register" method="post">
+
+    <div>
+        Employee ID
+        <br />
+        <input asp-for="Emp_ID" class="form-control" />
+        <span asp-validation-for="Emp_ID" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        Employee Name
+        <br />
+        <input asp-for="Emp_Name" class="form-control" />
+        <span asp-validation-for="Emp_Name" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        Department
+        <br />
+        <input asp-for="Department" class="form-control" />
+        <span asp-validation-for="Department" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        Salary
+        <br />
+        <input asp-for="Salary" class="form-control" />
+        <span asp-validation-for="Salary" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <div>
+        Email
+        <br />
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">
+        Register
+    </button>
+
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
