@@ -1,0 +1,1 @@
+/Users/krushnafalke/Desktop/Practical/Practice/24JUL/obj/Debug/net8.0/24JUL.GeneratedMSBuildEditorConfig.editorconfig
